@@ -89,7 +89,7 @@ def get_best(results,v):
 
 if __name__ == "__main__":
   coco_model=YOLO('yolov8n.pt')
-  lpdetect=YOLO('best.pt')
+  lpdetect=YOLO('best_5.pt')
   cap=cv2.VideoCapture('kia_alto.mp4')
   
   results = {}
