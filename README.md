@@ -19,8 +19,12 @@ The detection model was trained using the License Plate Recognition Dataset from
 ### Vehicle Detection with YOLOv8
 YOLOv8n is applied to each frame in the video to detect vehicles. The model divides each frame into a grid, predicting bounding boxes and class probabilities for various vehicle types, including cars, trucks, buses, motorcycles, and bicycles. The output includes bounding boxes and class probabilities, with visual representation on the video frame.
 
+![Detected Vehicles][vehicle_detection.jpg]
+
 ### License Plate Detection and Assignment
 After vehicle detection, a dedicated YOLOv8 model identifies license plates in each frame. The output bounding boxes are then associated with detected vehicles, ensuring each license plate is linked to the correct vehicle.
+
+![Detected Number Plate][numberplate_detection.jpg]
 
 ### Unique Tracking with SORT
 To maintain tracking across frames, SORT uses Kalman filtering to estimate the state of each detected vehicle and data association to link objects across frames. This approach assigns a unique track ID to each vehicle, allowing consistent tracking throughout the video.
