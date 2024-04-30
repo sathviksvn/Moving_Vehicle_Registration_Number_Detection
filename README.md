@@ -56,7 +56,7 @@ pip install ultralytics easyocr opencv-python-headless numpy scikit-image filter
 To clone the repository and navigate to its directory, use these commands:
 
 ```bash
-Copy code
+
 git clone https://github.com/sathviksvn/Moving_Vehicle_Registration_Number_Detection.git
 cd Moving_Vehicle_Registration_Number_Detection
 ```
