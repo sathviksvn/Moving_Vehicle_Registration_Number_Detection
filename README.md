@@ -51,6 +51,16 @@ Install these dependencies with the following command:
 ```bash
 pip install ultralytics easyocr opencv-python-headless numpy scikit-image filterpy lap
 ```
+
+## Cloning the Repository
+To clone the repository and navigate to its directory, use these commands:
+
+```bash
+Copy code
+git clone https://github.com/sathviksvn/Moving_Vehicle_Registration_Number_Detection.git
+cd Moving_Vehicle_Registration_Number_Detection
+```
+
 ## Usage
 To run the project and test the detection on the sample video:
 
