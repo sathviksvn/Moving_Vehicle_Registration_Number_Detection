@@ -46,3 +46,13 @@ Install these dependencies with the following command:
 
 ```bash
 pip install ultralytics easyocr opencv-python-headless numpy scikit-image filterpy lap
+```
+## Usage
+To run the project and test the detection on the sample video:
+
+Clone the repository and navigate to its directory.
+Ensure the kia_alto.mp4 video file and best.pt YOLOv8 model are in the same directory as main.py.
+Execute main.py with Python to process the video and detect license plates:
+```bash
+python main.py
+```
